@@ -3,7 +3,7 @@ extern "C"
    
     void GetPhotosThumbnails()
     {
-        UnitySendMessage( "DemoInstaller" , "ReceiveThumbnail", "WhateverValueToSendToUnity");
+        UnitySendMessage( "DemoInstaller" , "ReceiveThumbnail", "Test String");
     }
  
 }
